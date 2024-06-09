@@ -16,6 +16,7 @@ marshmallow = "*"
 marshmallow-sqlalchemy = "*"
 passlib = "*"
 flask-httpauth = "*"
+pytest = "*"
 
 [dev-packages]
 

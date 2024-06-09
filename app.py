@@ -10,4 +10,4 @@ from api.handlers import auth, note, user
 # Delete --> DELETE
 
 if __name__ == '__main__':
-    app.run(debug=Config.DEBUG, port=Config.PORT)
+    app.run(debug=Config.DEBUG,host=Config.HOST, port=Config.PORT)
